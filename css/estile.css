@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+}
+
+@font-face{
+    font-family: Tofino;
+    src: url(/Typografia/Tofino_Personal_License/Tofino_Personal_License/Tofino_Personal_OTFs/TofinoPersonal-Regular.otf)
+}
+
+body{
+    font-family:Tofino;
+    background-color: #767676;
+    color: #ffffff;
+    padding: 0px 10px 30px 10px ;
+}
+
+/* Designer do menu */
+.menu{
+    position: fixed;
+    padding: 30px;
+    float: right;
+    background-color: #767676;
+    width: 96%;
+    text-align: right;
+}
+
+.menu ul{
+    padding: 0px;
+    margin: 0px;
+}
+.menu ul li{
+    display: inline;
+    list-style: none;
+    
+}
+.menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 50px;
+    
+}
+
+.menu ul li a:visited{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu ul li a:hover{
+    color: #E3C47A;
+    font-size: 18px;
+    font-weight: bold;
+    transition-property: border-color;
+    
+}
+
+
+/* Div Anunciado */
+.anunciado{
+    display: inline-block;
+    margin: 5px auto;
+    padding: 120px;
+}
+
+.anunciado h1{
+    font-size: 48px;
+}
+
+/* Divisões */
+#pai{
+    display: flex;
+    min-height: 78vh;
+}
+
+#filhodois{
+    width: 30%;
+    border: #E3C47A;    
+    margin: 10px;
+    border-width: 10px;
+    border-style: solid;
+    padding: 12px; 
+}
+
+#filhodois h2{
+    text-align: center;
+    padding: 10px;
+}
+
+#filhodois p{
+    text-align: justify;
+}
+
+#filhoum{
+    width: 80%;
+    margin: 10px;
+    padding: 12px;
+}
+
+#imagemcod img{
+    width: 100%;
+    margin-top: 40px;
+}
+
+/* rodapé */
+footer{
+    margin-top: 80px;
+    padding: 30px 0px;
+    border: #000000;
+    border-width: 1px;
+    border-style: solid;
+    width: 130px;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+footer ul li a img{
+    width: 50px;;
+    
+}
+
+.imgicon{
+    color:#ffffff;
+    opacity: 0.6;
+}
