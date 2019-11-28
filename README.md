@@ -13,3 +13,13 @@
 
 ### Códigos
 * Página responsável por manter os códigos dos desenvolvedores da empresa -> Responsavel [FranciscoMaik](<https://github.com/FranciscoMaik>) 
+
+#Pastas
+## CSS
+* Pastas contendo arquivos de estilização;
+
+## Images
+* Pasta contendo as imagens e icones utilizados na página;
+
+## Typografia
+* Pasta contento a Fonte de texto utilizado no site;
