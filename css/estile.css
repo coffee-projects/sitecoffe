@@ -9,7 +9,7 @@
 
 body{
     font-family:Tofino;
-    background-color: #767676;
+    background-color: #282a36;
     color: #ffffff;
     padding: 0px 10px 30px 10px ;
 }
@@ -19,7 +19,7 @@ body{
     position: fixed;
     padding: 30px;
     float: right;
-    background-color: #767676;
+    background-color: #44475a;
     width: 96%;
     text-align: right;
 }
@@ -106,14 +106,21 @@ body{
 
 /* rodapé */
 footer{
+   margin-left:35%;
     margin-top: 80px;
-    padding: 30px 0px;
+    
+    
+}
+
+footer ul{
+    padding: 20px ;
+    width: 330px;
+    display: flex;
+    justify-content: space-evenly;
     border: #000000;
     border-width: 1px;
     border-style: solid;
-    width: 130px;
 }
-
 footer ul li{
     list-style: none;
 }
