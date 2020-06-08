@@ -1,0 +1,14 @@
+.flexbox{
+    margin-top: 80px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.flexbox p{
+    margin: 15px 0;
+}
+.flexbox h3{
+    margin-top: 45px;
+    width: 824px;
+    text-align: justify;
+}
