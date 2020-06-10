@@ -12,6 +12,7 @@ body{
     background: url(https://br.freepik.com/fotos-vetores-gratis/fundo);
      font-family:Tofino;
     background-color:  #44475a;
+    background-image: radial-gradient(ellipse farthest-corner at center , white, #e1faec 70%);
 }
 
 /* Designer do menu */
@@ -21,6 +22,7 @@ body{
     
     padding: 30px;
     background-color: #44475a;
+    
  
   
 }
