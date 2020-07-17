@@ -62,6 +62,49 @@ body{
     transition-property: border-color;
     
 }
+.header{
+    height: 500px;
+    display: flex;
+}
+.header .rigth{
+    height: 150px;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.header .rigth h1{
+    display: flex;
+    justify-content: center;
+}
+
+.header .rigth h3{
+    display: flex;
+    margin: 15px 0;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.header .rigth h2{
+    display: flex;
+    margin: 20px 0;
+}
+
+
+.rigth a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    border: #000000 solid 1px;
+    padding: 10px 0;
+    margin-top: 50px;
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    margin-left: 180px;
+    background-color: f1effd;
+    color: darkblue;
+}
 
 
 /* Div Anunciado */
@@ -113,8 +156,7 @@ body{
 /* rodapé */
 footer{
    margin-left:35%;
-    margin-top: 80px;
-    
+    margin-bottom: 10px;
     
 }
 
@@ -132,7 +174,7 @@ footer ul li{
 }
 
 footer ul li a img{
-    width: 50px;;
+    width: 50px;
     
 }
 
