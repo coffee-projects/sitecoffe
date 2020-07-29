@@ -2,13 +2,11 @@
     margin: 0px;
 }
 
-@font-face{
-    font-family: Tofino;
-    src: url(/Typografia/Tofino_Personal_License/Tofino_Personal_License/Tofino_Personal_OTFs/TofinoPersonal-Regular.otf)
-}
 
+html{
+    font-family: 'Roboto', sans-serif;
+}
 body{
-    font-family:Tofino;
     background: url(https://br.freepik.com/fotos-vetores-gratis/fundo);
      font-family:Tofino;
     background-color:  #44475a;
